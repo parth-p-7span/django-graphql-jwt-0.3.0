@@ -1,0 +1,17 @@
+---
+engines:
+  duplication:
+    enabled: true
+    exclude_paths:
+    - "graphql_jwt/relay.py"
+    - "graphql_jwt/refresh_token/relay.py"
+    config:
+      languages:
+      - python
+  fixme:
+    enabled: true
+  radon:
+    enabled: true
+ratings:
+  paths:
+  - "**.py"
